@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import "./AboutContentStyles.css";
 import React from "react";
-import bdome from "../assets/bdome.jpeg";
 import me4 from "../assets/me4.jpg";
-import meagain from "../assets/meagain.jpg"
 const AboutContent = () => {
   return (
     <div className="about">

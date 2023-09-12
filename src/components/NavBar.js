@@ -1,7 +1,7 @@
 import "./NavBarStyles.css";
 
-import React, { useEffect, useState } from "react";
-import { Link, useSearchParams } from "react-router-dom";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 const NavBar = () => {
   const [ham, setHam] = useState(false);
